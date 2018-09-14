@@ -1,0 +1,86 @@
+.todosContainer{
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+}
+.TodoStyle{
+  display:block;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+.TodoStyle.completed{
+  background-color: lightgreen;
+}
+.TodoStyle:hover{
+  background-color: lightskyblue;
+  transition: all 0.5s;
+}
+.TodoPopup{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+.TodoPopupContainer{
+  width: 450px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.TodoPopupTitle{
+  font-size: 2em;
+}
+.TodoPopupComplete{
+  background-color: lightblue;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  margin: 30px auto;
+  cursor: pointer;
+}
+.TodoPopupComplete:hover{
+  background-color: lightseagreen;
+  transition: all 0.5s;
+}
+.TodoClose{
+  position: relative;
+  top: -260px;
+  left: 74.5%;
+  margin: 100px;
+  background-color: lightcoral;
+  padding: 0.5em;
+  width: 1em;
+  height: 1em;
+  justify-content: center;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+}
+.TodoClose:hover{
+  background-color: red;
+  transition: all 0.5s;
+}
+.addTodo{
+  width: 200px;
+  margin: 0 auto;
+  background-color: lightseagreen;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.addTodo:hover{
+  background-color: greenyellow;
+  transition: all 0.5s;
+}
